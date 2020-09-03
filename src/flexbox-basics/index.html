@@ -1,0 +1,224 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Flexbox Basics</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <article id="basics">
+      <header>
+        <h1>Flexbox Basics</h1>
+
+        <a href="https://www.youtube.com/watch?v=-Wlt8NRtOpo"
+          >https://www.youtube.com/watch?v=-Wlt8NRtOpo</a
+        >
+      </header>
+
+      <h2>justify-content (on container)</h2>
+
+      <h3>flex-start (default)</h3>
+
+      <ul class="flexbox jc-fs target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>flex-end</h3>
+
+      <ul class="flexbox jc-fe target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>center</h3>
+
+      <ul class="flexbox jc-c target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>space-around</h3>
+
+      <ul class="flexbox jc-sa target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>space-evenly</h3>
+
+      <ul class="flexbox jc-se target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>space-between</h3>
+
+      <ul class="flexbox jc-sb target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h2>margin-left: auto (on children)</h2>
+
+      <h3>(on Item 1)</h3>
+
+      <ul class="flexbox">
+        <li class="ml-a target">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>(on Item 2)</h3>
+
+      <ul class="flexbox">
+        <li>Item 1</li>
+        <li class="ml-a target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>(on Item 3)</h3>
+
+      <ul class="flexbox">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li class="ml-a target">Item 3</li>
+      </ul>
+
+      <h2>flex (on children)</h2>
+
+      <h3>(flex: 1 on each item)</h3>
+
+      <ul class="flexbox">
+        <li class="f-1 target">Item 1</li>
+        <li class="f-1 target">Item 2</li>
+        <li class="f-1 target">Item 3</li>
+      </ul>
+
+      <h3>(flex: 1 on Item 1 and 3, flex: 2 on Item 2)</h3>
+
+      <ul class="flexbox">
+        <li class="f-1 target">Item 1</li>
+        <li class="f-2 target">Item 2</li>
+        <li class="f-1 target">Item 3</li>
+      </ul>
+
+      <h3>(flex: 1 on Item 2)</h3>
+
+      <ul class="flexbox">
+        <li>Item 1</li>
+        <li class="f-1 target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>(flex: 1 on Item 1 and 3)</h3>
+
+      <ul class="flexbox">
+        <li class="f-1 target">Item 1</li>
+        <li>Item 2</li>
+        <li class="f-1 target">Item 3</li>
+      </ul>
+
+      <h2>align-items (on container)</h2>
+
+      <h3>stretch (default)</h3>
+
+      <ul class="flexbox ai-s fixed-height target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>flex-start</h3>
+
+      <ul class="flexbox ai-fs fixed-height target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>flex-end</h3>
+
+      <ul class="flexbox ai-fe fixed-height target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>center</h3>
+
+      <ul class="flexbox ai-c fixed-height target">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h2>align-self (on children)</h2>
+
+      <h3>stretch on Item 2 (default)</h3>
+
+      <ul class="flexbox fixed-height">
+        <li>Item 1</li>
+        <li class="as-s target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>flex-start on Item 2</h3>
+
+      <ul class="flexbox fixed-height">
+        <li>Item 1</li>
+        <li class="as-fs target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>flex-end on Item 2</h3>
+
+      <ul class="flexbox fixed-height">
+        <li>Item 1</li>
+        <li class="as-fe target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>center on Item 2</h3>
+
+      <ul class="flexbox fixed-height">
+        <li>Item 1</li>
+        <li class="as-c target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h2>order (on children)</h2>
+
+      <h3>0 on Item 2 (default)</h3>
+
+      <ul class="flexbox">
+        <li>Item 1</li>
+        <li class="o-0 target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>1 on Item 2</h3>
+
+      <ul class="flexbox">
+        <li>Item 1</li>
+        <li class="o-positive1 target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h3>-1 on Item 2</h3>
+
+      <ul class="flexbox">
+        <li>Item 1</li>
+        <li class="o-negative1 target">Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+header {
+  padding: 1rem;
+  background-color: turquoise;
+  color: white;
+}
+
+aside {
+  background-color: #f1f1f1;
+}
+
+article {
+  padding: 0 1rem;
+}
+
+aside ul {
+  padding: 0 0.8rem;
+}
+
+aside li {
+  margin: 0.8rem 0;
+  padding: 0.5rem;
+  background-color: lightgrey;
+}
+
+main h1 {
+  margin: 2rem 0;
+}
+
+main p {
+  margin: 1rem 0;
+}
+
+footer {
+  padding: 0 1rem;
+  background-color: grey;
+  color: white;
+}

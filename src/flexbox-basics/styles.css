@@ -1,0 +1,134 @@
+h1 {
+  margin: 2rem 0;
+}
+
+h2 {
+  margin: 1.5rem 0;
+}
+
+h3 {
+  margin: 1rem 0;
+}
+
+article {
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+#basics {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+#basics ul {
+  padding: 10px;
+  background-color: lightgrey;
+  border: 2px solid grey;
+}
+
+#basics li {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#basics ul.target {
+  background-color: aquamarine;
+  border: 2px solid lightgreen;
+}
+
+#basics li.target {
+  background-color: deepskyblue;
+  border-color: blue;
+}
+
+#basics .flexbox {
+  display: flex;
+}
+
+#basics .jc-fs {
+  justify-content: flex-start;
+}
+
+#basics .jc-fe {
+  justify-content: flex-end;
+}
+
+#basics .jc-c {
+  justify-content: center;
+}
+
+#basics .jc-sa {
+  justify-content: space-around;
+}
+
+#basics .jc-se {
+  justify-content: space-evenly;
+}
+
+#basics .jc-sb {
+  justify-content: space-between;
+}
+
+#basics .ml-a {
+  margin-left: auto;
+}
+
+#basics .f-1 {
+  flex: 1;
+}
+
+#basics .f-2 {
+  flex: 2;
+}
+
+#basics .fixed-height {
+  height: 100px;
+}
+
+#basics .ai-s {
+  align-items: stretch;
+}
+
+#basics .ai-fs {
+  align-items: flex-start;
+}
+
+#basics .ai-fe {
+  align-items: flex-end;
+}
+
+#basics .ai-c {
+  align-items: center;
+}
+
+#basics .as-s {
+  align-self: stretch;
+}
+
+#basics .as-fs {
+  align-self: flex-start;
+}
+
+#basics .as-fe {
+  align-self: flex-end;
+}
+
+#basics .as-c {
+  align-self: center;
+}
+
+#basics .o-0 {
+  order: 0;
+}
+
+#basics .o-positive1 {
+  order: 1;
+}
+
+#basics .o-negative1 {
+  order: -1;
+}

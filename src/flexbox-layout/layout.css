@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+
+.body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+
+aside {
+  width: 20rem;
+  overflow: auto;
+}
+
+main {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  min-height: 4rem;
+}
