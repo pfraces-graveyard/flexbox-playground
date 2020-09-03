@@ -1,5 +1,7 @@
 # Flexbox Playground
 
+Flexbox usage examples
+
 ## Install
 
 ```
@@ -13,3 +15,5 @@ npm install
 ```
 npm start
 ```
+
+Browse to <http://localhost:5000>
